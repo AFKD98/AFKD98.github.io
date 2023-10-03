@@ -3,67 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Faraz Khan's Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Ahmad Khan's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-
-        h1, h2 {
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
             color: #333;
         }
-
-        section {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        header {
+            background-color: #2C3E50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 2em 0;
         }
-
+        section {
+            padding: 2em;
+        }
         .btn {
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
+            background-color: #3498db;
+            color: #ecf0f1;
+            padding: 0.5em 1em;
             text-decoration: none;
-            margin-right: 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+            margin: 0.5em;
+            border-radius: 3px;
+            transition: background-color 0.3s;
         }
-
         .btn:hover {
-            background-color: #555;
-        }
-
-        #social-links {
-            margin-top: 20px;
-        }
-
-        #social-links a {
-            margin-right: 10px;
-            color: #333;
-            font-size: 24px;
-            transition: color 0.3s ease;
-        }
-
-        #social-links a:hover {
-            color: #555;
+            background-color: #2980b9;
         }
     </style>
 </head>
 <body>
-    <h1>Ahmad Faraz Khan</h1>
-    <p>Welcome to my portfolio!</p>
 
+<header>
+    <h1>Ahmad Khan</h1>
+    <p>Computer Science Researcher | ML Optimization Specialist | Federated Learning Enthusiast</p>
+    <a href="#about" class="btn">About Me</a>
     <a href="#publications" class="btn">Publications</a>
     <a href="#key-projects" class="btn">Key Projects</a>
+    <a href="#education" class="btn">Education</a>
     <a href="#additional-experiences" class="btn">Additional Experiences</a>
+</header>
 
-    <section id="publications">
-        <h2>Publications</h2>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Welcome to my digital space! With a passion for advancing machine learning technologies, I've been involved in various research and projects aimed at optimizing ML systems, particularly in the realm of federated learning. I believe in the power of collaboration, continuous learning, and leveraging technology to solve real-world challenges.</p>
+    <p>Connect with me on: 
+        <a href="https://github.com/AFKD98" target="_blank"><i class="fab fa-github"></i> GitHub</a> | 
+        <a href="https://www.linkedin.com/in/ahmadfarazkhandurrani/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+    </p>
+</section>
+
+<section id="publications">
+    <h2>Publications</h2>
         <h3>Graduate Research Assistant, DSSL, Virginia Tech</h3>
         <p>December 2020 - Present</p>
         <p>Mentor: Dr. Ali Butt, PhD. Purdue University</p>
@@ -84,34 +80,37 @@
         <ul>
             <li>Executed a comprehensive measurement study on YouTube performance, aiming to pinpoint bottlenecks affecting user experience on low-end devices and networks. Innovated a data-driven video streaming algorithm (DAVS), realizing a 20% QoE enhancement over the state-of-the-art ABR algorithm Pensieve.</li>
         </ul>
-    </section>
+</section>
 
-    <section id="key-projects">
-        <h2>Key Projects</h2>
-        <ul>
-            <li><strong>ML System Optimization:</strong> Pioneered algorithms to enhance the architecture of ML systems, targeting resource allocation, scalability, and cost-time efficiency.</li>
-            <li><strong>Federated Learning Frameworks:</strong> Spearheaded the design and development of both Horizontal and Vertical Federated Learning (HFL & VFL) frameworks. Implemented MLOps pipelines integrated with AWS cloud resources and popular ML libraries such as PyTorch, TensorFlow, and FedScale.</li>
-            <li><strong>Distributed and Containerized System:</strong> Designed a system with a dynamic pipeline to support the data analytical modules for Cyber Infrastructure for Waterborne Antibiotic Resistance Risk Surveillance (CI4-WARS).</li>
-            <li><strong>Counter Fuzzing with LLVM:</strong> Developed an LLVM-based counter fuzzing approach that's undetectable by leading fuzzers like AFL and balances performance with countermeasures.</li>
-        </ul>
-    </section>
-    
-    <section id="additional-experiences">
-        <h2>Additional Experiences</h2>
-        <ul>
-            <li><strong>Teaching Roles, Virginia Tech:</strong> Instructed courses such as Web/Cloud Development (Fall'24), Python Programming (Spring'20, Fall'21), and Principles of Computer Security (Spring'22).</li>
-            <li><strong>Associate Data Engineer, i2c Inc.:</strong> Spearheaded the development and upkeep of distributed sequential databases. Successfully accelerated query times for read-only tasks through database optimization techniques.</li>
-            <li><strong>Internships:</strong> Contributed to game development using Unity 3D at Game Storm Studios and fostered intra-company communication with an application in meteorJS at Packages Ltd.</li>
-        </ul>
-    </section>
+<section id="key-projects">
+    <h2>Key Projects</h2>
+    <ul>
+        <li><strong>ML System Optimization:</strong> Pioneered algorithms to enhance the architecture of ML systems, targeting resource allocation, scalability, and cost-time efficiency.</li>
+        <li><strong>Federated Learning Frameworks:</strong> Spearheaded the design and development of both Horizontal and Vertical Federated Learning (HFL & VFL) frameworks. Implemented MLOps pipelines integrated with AWS cloud resources and popular ML libraries such as PyTorch, TensorFlow, and FedScale.</li>
+        <li><strong>Distributed and Containerized System:</strong> Designed a system with a dynamic pipeline to support the data analytical modules for Cyber Infrastructure for Waterborne Antibiotic Resistance Risk Surveillance (CI4-WARS).</li>
+        <li><strong>Counter Fuzzing with LLVM:</strong> Developed an LLVM-based counter fuzzing approach that's undetectable by leading fuzzers like AFL and balances performance with countermeasures.</li>
+    </ul>
+    <!-- Key Projects content as previously provided -->
+</section>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>Contact: +1 540 449 6457 | afkhan@vt.edu</p>
-        <div id="social-links">
-            <a href="https://github.com/AFKD98" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/ahmadfarazkhandurrani/" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </section>
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Ph.D. in Computer Science,</strong> XYZ University, 2020-2024 (Expected)</li>
+        <li><strong>Masters in Information Systems,</strong> ABC University, 2018-2020</li>
+        <li><strong>Bachelor of Science in Computer Science,</strong> DEF University, 2014-2018</li>
+    </ul>
+</section>
+
+<section id="additional-experiences">
+    <h2>Additional Experiences</h2>
+    <ul>
+        <li><strong>Teaching Roles, Virginia Tech:</strong> Instructed courses such as Web/Cloud Development (Fall'24), Python Programming (Spring'20, Fall'21), and Principles of Computer Security (Spring'22).</li>
+        <li><strong>Associate Data Engineer, i2c Inc.:</strong> Spearheaded the development and upkeep of distributed sequential databases. Successfully accelerated query times for read-only tasks through database optimization techniques.</li>
+        <li><strong>Internships:</strong> Contributed to game development using Unity 3D at Game Storm Studios and fostered intra-company communication with an application in meteorJS at Packages Ltd.</li>
+    </ul>
+    <!-- Additional Experiences content as previously provided -->
+</section>
+
 </body>
 </html>
