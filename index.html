@@ -33,16 +33,20 @@
         }
         .btn {
             display: inline-block;
-            background-color: #3498db;
-            color: #ecf0f1;
+            background-color: transparent; /* Makes the background transparent */
+            color: #3498db; /* Text color */
             padding: 0.5em 1em;
             text-decoration: none;
             margin: 0.5em;
+            border: 2px solid #3498db; /* Adds a border */
             border-radius: 3px;
-            transition: background-color 0.3s;
+            transition: all 0.3s ease; /* Smooth transition for background and border color */
         }
+        
         .btn:hover {
-            background-color: #2980b9;
+            background-color: #3498db; /* Background color on hover */
+            color: #ecf0f1; /* Text color on hover */
+            border-color: #2980b9; /* Border color on hover */
         }
         .profile-image {
             width: 150px;
@@ -64,6 +68,7 @@
     <a href="#key-projects" class="btn">Key Projects</a>
     <a href="#education" class="btn">Education</a>
     <a href="#additional-experiences" class="btn">Additional Experiences</a>
+    <a href="Ahmad_Resume.pdf" class="btn" download="Ahmad_Faraz_Khan_CV">CV</a>
 </header>
 
 <section id="about" style="background-color: #f4f4f4; padding: 20px; border-radius: 10px;">
