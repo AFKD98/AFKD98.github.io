@@ -2,96 +2,75 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ahmad Faraz Khan
+    - name: Contact
+      value: "+1 540 449 6457 | afkhan@vt.edu"
+    - name: Website
+      value: "https://afkd98.github.io"
+    - name: LinkedIn
+      value: "https://www.linkedin.com/in/ahmadfarazkhandurrani/"
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: Virginia Tech, Blacksburg, VA
+      year: December 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research Focus: Machine Learning Systems
+        - CGPA: 3.8
+    - title: B.S. in Computer Science
+      institution: LUMS, Lahore, Pakistan
+      year: 2016-2020
       description:
-        - Description 1.
-        - Description 2.
+        - Advanced Courses: Distributed Systems, Deep Learning, Machine Learning, Cloud Development, Computer Systems
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Technical Proficiency
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Programming Languages: Python, Javascript, C/C++, Java, Go
+    - Tools & Libraries: PySpark, AWS Suite, Pandas, Numba, Dask, Docker, Pytorch, Tensorflow, IBMfl lib, FedScale, Selenium, Appium, gnuplot, ES6+, TypeScript, React/Redux, Node, Express, MongoDB, SQL, FLSim
+
+- title: Publications
+  type: time_table
+  contents:
+    - year: December 2020 - Present
+      title: Graduate Research Assistant, DSSL, Virginia Tech
+      items:
+        - "Introduced 'FLOAT', a framework optimizing Federated Learning's resource utilization and model performance amid heterogeneity. Published in ACM EuroSys'24."
+        - "Developed a framework for monetizing personalized FL with system and data heterogeneity. Paper submitted to ICML'24."
+        - "Adaptive FL aggregator for Edge and IoT, achieving scalability and efficiency. Published in IEEE BigData'24."
+        - "Proposed a lossless and efficient defense for inference attacks in Vertical Federated Learning (VFL). Paper submitted to AAMAS'24."
+        - "Analyzed personalized FL algorithms, emphasizing the trade-offs between privacy and performance. Paper submitted to AAMAS'24."
+        - "Conducted a survey on adversarial tactics in deep learning models, published in IEEE Access'24."
+        - "Monetized VFL with 'PERFACY-FL', an incentive mechanism using Homomorphic Encryption. Paper under review."
+        - "Designed and developed an incentivized FL system. Published in FL-AAAI'22, IEEE CLOUD'22."
+        - "Heterogeneity-aware adaptive FL scheduling system. Published in IEEE BigData'22."
+    - year: January 2019 - May 2020
+      title: Research Assistant, Networks and Systems Group, LUMS
+      items:
+        - "Comprehensive measurement study on YouTube performance, innovated a data-driven video streaming algorithm. Resulted in QoE enhancement."
+
+- title: Key Projects
+  type: list
+  contents:
+    - "ML System Optimization: Enhanced ML system architectures for improved resource allocation, scalability, and efficiency. Contributions led to publications."
+    - "Federated Learning Frameworks: Led the design and implementation of HFL & VFL frameworks, integrating MLOps pipelines with cloud resources."
+    - "Designed a distributed and containerized system for CI4-WARS, supporting dynamic data analytical modules."
+    - "Counter Fuzzing with LLVM: Developed an approach using LLVM, enhancing security measures while maintaining performance."
+
+- title: Additional Experiences
+  type: time_table
+  contents:
+    - year: Fall'23, Spring'20, Fall'21, Spring'22
+      title: Teaching Roles, Virginia Tech
+      items:
+        - "Instructed Web/Cloud Development, Python Programming, and Principles of Computer Security."
+    - year: May 2020 - December 2020
+      title: Associate Data Engineer, i2c Inc.
+      items:
+        - "Led the development and optimization of distributed sequential databases, enhancing query times for read-only tasks."
+    - title: Internships
+      items:
+        - "Game development with Unity 3D at Game Storm Studios."
+        - "Developed an application using MeteorJS for intra-company communication at Packages Ltd."
