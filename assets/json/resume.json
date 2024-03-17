@@ -75,36 +75,55 @@
     {
       "name": "Optimizing Federated Learning's Resource Utilization with 'FLOAT'",
       "publisher": "ACM EuroSys'24",
-      "releaseDate": "2024-01-01",
-      "status": "Published",
+      "releaseDate": "2024-04-22",
       "summary": "Introduced a novel framework leveraging Reinforcement Learning for optimizing Federated Learning in heterogeneous environments."
-    },
-    {
-      "name": "Monetizing Personalized Federated Learning with System and Data Heterogeneity",
-      "publisher": "ICML'24",
-      "releaseDate": "2024-01-01",
-      "status": "Submitted",
-      "summary": "Explored innovative approaches to monetizing personalized Federated Learning, addressing system and data heterogeneity."
     },
     {
       "name": "Adaptive Federated Learning Aggregator for Edge and IoT",
       "publisher": "IEEE BigData'24",
-      "releaseDate": "2024-01-01",
-      "status": "Published",
+      "releaseDate": "2023/12/15",
       "summary": "Developed an adaptive aggregator that significantly enhances scalability and time efficiency for Federated Learning on Edge and IoT devices."
     },
     {
+      "name": "Survey on Adversarial Tactics in DNN, DRL, FL, and TL Models",
+      "publisher": "IEEE Access'24",
+      "releaseDate": "2023/10/20",
+      "summary": "Conducted a survey on adversarial tactics in deep learning models, emphasizing their applications and distinct features."
+    },
+    {
+      "name": "Design and Development of an Incentivized Federated Learning System",
+      "publisher": "FL-AAAI’22, IEEE CLOUD’22",
+      "releaseDate": "2022/7/10",
+      "summary": "Designed and developed an incentivized FL system using IBMﬂ lib."
+    },
+    {
+      "name": "Heterogeneity-Aware Adaptive Federated Learning Scheduling System",
+      "publisher": "IEEE BigData’22",
+      "releaseDate": "2022/12/17",
+      "summary": "Designed a heterogeneity-aware adaptive FL scheduling system to tune model training according to user preferences using IBMﬂ lib."
+    },
+    {
+      "name": "Enhancing Personalized Federated Learning with Incentives",
+      "publisher": "Under Review",
+      "releaseDate": "2023/4/15",
+      "summary": "Explored innovative approaches to monetizing personalized Federated Learning, addressing system and data heterogeneity."
+    },
+    {
+      "name": "Monetizing Vertical Federated Learning with PERFACY-FL",
+      "publisher": "In Progress",
+      "releaseDate": "2024-03-17",
+      "summary": "Monetized VFL with PERFACY-FL, an incentive mechanism valuing data quality and privacy using Homomorphic Encryption, boosting participation and profitability."
+    },
+    {
       "name": "Defending Against Inference Attacks in Vertical Federated Learning",
-      "publisher": "AAMAS'24",
-      "releaseDate": "2024-01-01",
-      "status": "Submitted",
+      "publisher": "In Progress",
+      "releaseDate": "2024-03-17",
       "summary": "Proposed a lossless and efficient defense mechanism for inference attacks in Vertical Federated Learning environments."
     },
     {
       "name": "Analyzing Personalized Federated Learning Algorithms",
-      "publisher": "Arxiv",
-      "releaseDate": "2024-01-01",
-      "status": "Submitted",
+      "publisher": "In Progress",
+      "releaseDate": "2024-03-17",
       "summary": "Conducted a thorough analysis of personalized FL algorithms, highlighting the trade-offs between privacy and performance."
     }
   ],
@@ -112,7 +131,13 @@
     {
       "name": "Programming Languages",
       "level": "Expert",
-      "keywords": ["Python", "Javascript", "C/C++", "Java", "Go"]
+      "keywords": [
+        "Python",
+        "Javascript",
+        "C/C++",
+        "Java",
+        "Go"
+      ]
     },
     {
       "name": "Tools & Libraries",
@@ -159,7 +184,11 @@
     },
     {
       "name": "Machine Learning Systems",
-      "keywords": ["Scalability", "Efficiency", "Cloud Development"]
+      "keywords": [
+        "Scalability",
+        "Efficiency",
+        "Cloud Development"
+      ]
     }
   ],
   "projects": [
