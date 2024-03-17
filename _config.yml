@@ -8,9 +8,9 @@ middle_name: Faraz
 last_name: Khan
 email: ahmadfk@vt.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-Ahmad Faraz Khan - CS Ph.D. candidate @ Virginia Tech - ML Systems Researcher
+  Ahmad Faraz Khan - CS Ph.D. candidate @ Virginia Tech - ML Systems Researcher
 footer_text: >
-Ahmad Faraz Khan - CS Ph.D. candidate @ Virginia Tech - ML Systems Researcher
+  Ahmad Faraz Khan - CS Ph.D. candidate @ Virginia Tech - ML Systems Researcher
 keywords: Ahmad Faraz Khan, Machine Learning Systems, Federated Learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: website_icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
