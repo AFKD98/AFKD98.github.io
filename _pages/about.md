@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://research.cs.vt.edu/dssl/'>PhD Candidate at Virginia Tech</a>
 
 profile:
   align: right
