@@ -112,13 +112,7 @@
     {
       "name": "Programming Languages",
       "level": "Expert",
-      "keywords": [
-        "Python",
-        "Javascript",
-        "C/C++",
-        "Java",
-        "Go"
-      ]
+      "keywords": ["Python", "Javascript", "C/C++", "Java", "Go"]
     },
     {
       "name": "Tools & Libraries",
@@ -165,11 +159,7 @@
     },
     {
       "name": "Machine Learning Systems",
-      "keywords": [
-        "Scalability",
-        "Efficiency",
-        "Cloud Development"
-      ]
+      "keywords": ["Scalability", "Efficiency", "Cloud Development"]
     }
   ],
   "projects": [
