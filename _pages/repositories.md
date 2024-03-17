@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: software
 description: My public research artifacts are available at <a href='https://github.com/AFKD98'>github.com/AFKD98</a>.
-nav: true
+nav: false
 nav_order: 4
 ---
 
