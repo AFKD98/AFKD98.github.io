@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: software
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: My public research artifacts are available at <a href='https://github.com/AFKD98'>github.com/AFKD98</a>.
 nav: true
 nav_order: 4
 ---

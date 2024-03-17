@@ -17,8 +17,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am fourth year Ph.D. candidate in Computer Science at Virginia Tech in the DSSL lab working with <a href='https://people.cs.vt.edu/butta/'>Dr. Ali R. Butt</a>. My research is focus is on Machine Learning Systems and Federated Learning. 
+I am a fourth-year Ph.D. candidate in Computer Science at Virginia Tech in the DSSL lab working with <a href='https://people.cs.vt.edu/butta/'>Dr. Ali R. Butt</a>. My research is focused on Machine Learning Systems and Federated Learning. 
 
-Currently I am working on developing (1) Systems for ML: Enhancing resource utilization, scalability, fairness, and efficiency of distributed learning by developing specialized (computing and storage) systems for distributed ML. (2) Personalized ML: Developing better personalization solutions for distributed ML. (3) Incentivized ML: Improving incentive systems for distributed and collaborative ML for improving fairness and adaptability.
+Currently, I am working on (1) Systems for ML: Enhancing resource utilization, scalability, fairness, and efficiency of distributed learning by developing specialized (computing and storage) systems for distributed ML. (2) Personalized ML: Developing better personalization solutions for distributed ML. (3) Incentivized ML: Improving distributed and collaborative ML incentive systems for fairness and adaptability.
 
 I did my B.S. in Computer Science from LUMS University working with <a href='https://www.ihsanqazi.com/'>Dr. Ihsan Ayyub Qazi</a> and <a href='https://web.lums.edu.pk/~zafar/'>Dr. Zafar Ayyub Qazi</a>.

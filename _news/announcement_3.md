@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at IEEE Access, congratulations to Haider and rest of the team! :sparkles: :smile:
+Paper accepted at IEEE Access, congratulations to Haider and rest of the team!
