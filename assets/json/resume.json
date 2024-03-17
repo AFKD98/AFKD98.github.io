@@ -112,12 +112,40 @@
     {
       "name": "Programming Languages",
       "level": "Expert",
-      "keywords": ["Python", "Javascript", "C/C++", "Java", "Go"]
+      "keywords": [
+        "Python",
+        "Javascript",
+        "C/C++",
+        "Java",
+        "Go"
+      ]
     },
     {
       "name": "Tools & Libraries",
       "level": "Expert",
-      "keywords": ["PySpark", "AWS Suite", "Pandas", "Numba", "Dask", "Docker", "PyTorch", "TensorFlow", "IBMfl lib", "FedScale", "Selenium", "Appium", "gnuplot", "ES6+", "TypeScript", "React/Redux", "Node.js", "Express", "MongoDB", "SQL", "FLSim"]
+      "keywords": [
+        "PySpark",
+        "AWS Suite",
+        "Pandas",
+        "Numba",
+        "Dask",
+        "Docker",
+        "PyTorch",
+        "TensorFlow",
+        "IBMfl lib",
+        "FedScale",
+        "Selenium",
+        "Appium",
+        "gnuplot",
+        "ES6+",
+        "TypeScript",
+        "React/Redux",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "SQL",
+        "FLSim"
+      ]
     }
   ],
   "languages": [
@@ -129,11 +157,19 @@
   "interests": [
     {
       "name": "Federated Learning",
-      "keywords": ["Resource Optimization", "Model Performance", "System and Data Heterogeneity"]
+      "keywords": [
+        "Resource Optimization",
+        "Model Performance",
+        "System and Data Heterogeneity"
+      ]
     },
     {
       "name": "Machine Learning Systems",
-      "keywords": ["Scalability", "Efficiency", "Cloud Development"]
+      "keywords": [
+        "Scalability",
+        "Efficiency",
+        "Cloud Development"
+      ]
     }
   ],
   "projects": [
