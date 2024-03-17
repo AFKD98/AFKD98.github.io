@@ -111,19 +111,19 @@
     {
       "name": "Monetizing Vertical Federated Learning with PERFACY-FL",
       "publisher": "In Progress",
-      "releaseDate": "2024-03-17",
+      "releaseDate": "2022/7/9",
       "summary": "Monetized VFL with PERFACY-FL, an incentive mechanism valuing data quality and privacy using Homomorphic Encryption, boosting participation and profitability."
     },
     {
       "name": "Defending Against Inference Attacks in Vertical Federated Learning",
       "publisher": "In Progress",
-      "releaseDate": "2024-03-17",
+      "releaseDate": "2022/7/9",
       "summary": "Proposed a lossless and efficient defense mechanism for inference attacks in Vertical Federated Learning environments."
     },
     {
       "name": "Analyzing Personalized Federated Learning Algorithms",
       "publisher": "In Progress",
-      "releaseDate": "2024-03-17",
+      "releaseDate": "2022/7/9",
       "summary": "Conducted a thorough analysis of personalized FL algorithms, highlighting the trade-offs between privacy and performance."
     }
   ],
