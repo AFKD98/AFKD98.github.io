@@ -17,8 +17,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am fourth year Ph.D. candidate in Computer Science at Virginia Tech in the DSSL lab working with <a href='https://people.cs.vt.edu/butta/'>Dr. Ali R. Butt</a>. My research is focus is on Machine Learning Systems and Federated Learning. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently I am working on developing (1) Systems for ML: Enhancing resource utilization, scalability, fairness, and efficiency of distributed learning by developing specialized (computing and storage) systems for distributed ML. (2) Personalized ML: Developing better personalization solutions for distributed ML. (3) Incentivized ML: Improving incentive systems for distributed and collaborative ML for improving fairness and adaptability.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I did my B.S. in Computer Science from LUMS University working with <a href='https://www.ihsanqazi.com/'>Dr. Ihsan Ayyub Qazi</a> and <a href='https://web.lums.edu.pk/~zafar/'>Dr. Zafar Ayyub Qazi</a>.
