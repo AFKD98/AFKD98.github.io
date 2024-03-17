@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p> Email: <a href="mailto:ahmadfk@vt.edu">ahmadfk@vt.edu</a></p>
     <p>CS@VT</p>
     <p>ML Systems Researcher</p>
 
