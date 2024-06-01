@@ -74,13 +74,13 @@
   "publications": [
     {
       "name": "FLStore: A Cache for Non-Training Workloads in Federated Learning",
-      "publisher": "Submitted: ACM EuroSys'24",
+      "publisher": "Submitted: ACM EuroSys'25",
       "releaseDate": "2024-04-22",
       "summary": "Designed 'FLStore' cache for improving efficiency and cost of non-training workloads in FL."
     },
     {
       "name": "FLOAT: Federataed Learning Optimizations with Automated Tuning",
-      "publisher": "Published: ACM EuroSys'25",
+      "publisher": "Published: ACM EuroSys'24",
       "releaseDate": "2024-04-22",
       "summary": "Introduced a novel framework leveraging Reinforcement Learning for optimizing Federated Learning in heterogeneous environments."
     },
