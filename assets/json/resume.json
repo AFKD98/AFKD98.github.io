@@ -75,7 +75,7 @@
     {
       "name": "FLStore: A Cache for Non-Training Workloads in Federated Learning",
       "publisher": "Submitted: ACM EuroSys'25",
-      "releaseDate": "2024-04-22",
+      "releaseDate": "2025-07-31",
       "summary": "Designed 'FLStore' cache for improving efficiency and cost of non-training workloads in FL."
     },
     {
