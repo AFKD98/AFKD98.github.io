@@ -80,7 +80,7 @@
     },
     {
       "name": "FLOAT: Federataed Learning Optimizations with Automated Tuning",
-      "publisher": "Published: ACM EuroSys'24",
+      "publisher": "Published: ACM EuroSys'25",
       "releaseDate": "2024-04-22",
       "summary": "Introduced a novel framework leveraging Reinforcement Learning for optimizing Federated Learning in heterogeneous environments."
     },
@@ -92,13 +92,13 @@
     },
     {
       "name": "Analyzing Personalized Federated Learning Algorithms",
-      "publisher": "Submitted: MASCOTS'24",
+      "publisher": "Submitted: VLDB'24",
       "releaseDate": "2024/7/9",
       "summary": "Conducted a thorough analysis of personalized FL algorithms, highlighting the trade-offs between privacy and performance."
     },
     {
       "name": "Mitigating sycophancy in LLMs",
-      "publisher": "Submitted: COLM'24",
+      "publisher": "Submitted: ICML Workshop'24",
       "releaseDate": "2024/7/9",
       "summary": "Introduced a Direct Preference Optimization approach to mitigate sycophancy by fine-tuning LLMs on a curated dataset."
     },
