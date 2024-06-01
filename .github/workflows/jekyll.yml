@@ -27,40 +27,36 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
+          ruby-version: '3.1'  # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+
+      - name: Setup Python and Install Jupyter
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'  # Choose the Python version that matches your needs
+        run: |
+          python -m pip install --upgrade pip
+          pip install notebook jupyter
+
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
-      - name: Install and Build 🔧
         run: |
-          pip3 install --upgrade jupyter
-          export JEKYLL_ENV=production
-          bundle exec jekyll build --lsi
-      - name: Purge unused CSS 🧹
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
+          bundle install
+          bundle exec jekyll build --lsi --baseurl "${{ steps.pages.outputs.base_path }}"
 
-  # Deployment job
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
   deploy:
     environment:
       name: github-pages
