@@ -38,6 +38,7 @@
       title: Graduate Research Assistant, DSSL, Virginia Tech
       items:
         - "Ahmad Faraz Khan, Samuel Fountain, Ahmed M. Abdelmoniem, Ali R. Butt, and Ali Anwar. FLStore: Federated Learning Optimizations with Automated Tuning. Under Review at the 20th ACM European Conference on Computer Systems (EuroSys’25)."
+        - "Qi Le, Enmao Diao, Xinran Wang, Ahmad Faraz Khan, Vahid Tarokh, Jie Ding, and Ali Anwar. DynamicFL: Federated Learning with Dynamic Communication Resource Allocation. Under Review at the 20th ACM European Conference on Computer Systems (EuroSys'25)."
         - "Ahmad Faraz Khan, Azal Ahmad Khan, Ahmed M. Abdelmoniem, Samuel Fountain, Ali R. Butt, and Ali Anwar. FLOAT: Federated Learning Optimizations with Automated Tuning. In Proceedings of the 19th ACM European Conference on Computer Systems (EuroSys’24), Athens, Greece, 12 pages, April 2024. (AR: 16%)."
         - "Ahmad Faraz Khan, Xinran Wang, Qi Le, Zain ul Abdeen, Azal Ahmad Khan, Haider Ali, Ming Jin, Jie Ding, Ali R. Butt, and Ali Anwar. IP-FL: Incentive-driven Personalization in Federated Learning. Under Review at the 38th Annual Conference on Neural Information Processing Systems (NeurIPS’24)."
         - "Azal Ahmad Khan, Xinran Wang, Ahmad Faraz Khan, Ali Anwar, and Debanga Raj Neog. Direct Preference Optimization for Prompt Engineering in Text-to-Image Synthesis. Under Review at the 1st Conference on Language Modeling (COLM’24)."
@@ -54,11 +55,11 @@
 - title: Key Projects
   type: list
   contents:
-    - "Systems for ML: Optimized state-of-the-art distributed learning systems, focusing on enhancing resource utilization, scalability, and efficiency through the development of specialized computing and storage solutions for resource-constrained environments. This research led to papers that were published and presented at conferences including BigData’22, BigData’23, and EuroSys’24, and submissions in EuroSys’25."
+    - "Systems for ML: Optimized state-of-the-art distributed learning systems, focusing on enhancing resource utilization, scalability, and efficiency through the development of specialized computing and storage solutions for resource-constrained learning. This research led to papers that were published and presented at conferences including BigData’22, BigData’23, and EuroSys’24, and submissions in EuroSys’25."
     - "Privacy-aware Learning: Designed and developed Horizontal and Vertical Federated Learning (HFL & VFL) frameworks, enhancing privacy in distributed environments. In addition, implemented MLOps pipelines that leverage cloud resources and integrate with major ML libraries such as PyTorch, TensorFlow, and FLOWER. This work contributed to publications at IEEE Access’23, and the FL-AAAI’22."
     - "Personalized ML: Developed enhanced personalization solutions for resource-constrained distributed ML systems, aiming to tailor models more effectively to individual user needs. This work led to contributions under review at NeurIPS’24, AAAI."
     - "Incentivized ML: Improved incentive mechanisms within distributed and collaborative resource-constrained ML systems to ensure fairness and adaptability across diverse user groups and scenarios. This work led to contributions towards IEEE CLOUD’22, AAAI-AIES’24, and AAAI’25."
-    - "LLMs fine-tuning: Developed a Direct Preference Optimization (DPO) approach that utilizes human preferences for rapid optimization of text-to-image tasks. Furthermore, introduced a DPO method to reduce sycophancy by fine-tuning large language models (LLMs) using a curated dataset. These contributions are under review at COLM’24 and ICML Workshop’24."
+    - "LLMs fine-tuning: Developed Direct Preference Optimization (DPO) approaches that utilize human preferences for rapid optimization of text-to-image tasks and reduce sycophancy by fine-tuning large language models (LLMs) using curated datasets. These contributions are under review at COLM'24 and ICML Workshop'24."
     - "DevOps: Designed a distributed and containerized system with a dynamic pipeline to support the data analytical modules for Cyber Infrastructure for Waterborne Antibiotic Resistance Risk Surveillance (CI4-WARS)."
     - "Program Analysis: Developed an LLVM-based counter fuzzing approach that’s undetectable by leading fuzzers such as AFL and balances performance with countermeasures."
 

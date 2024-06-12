@@ -76,19 +76,25 @@
       "name": "FLStore: A Cache for Non-Training Workloads in Federated Learning",
       "publisher": "Submitted: ACM EuroSys'25",
       "releaseDate": "2025-07-31",
-      "summary": "Designed 'FLStore' cache for improving efficiency and cost of non-training workloads in FL."
+      "summary": "Designed 'FLStore' locality-aware processing cache for handling non-training workloads of distributed privacy-aware learning efficiently at low cost."
+    },    
+    {
+      "name": "DynamicFL: Federated Learning with Dynamic Communication Resource Allocation",
+      "publisher": "Submitted: ACM EuroSys'25",
+      "releaseDate": "2025-07-31",
+      "summary": "Designed 'DynamicFL' that dynamically allocates communication resources in distributed learning based on data heterogeneity, enhancing model accuracy by up to 10% compared to standard methods."
     },
     {
       "name": "FLOAT: Federataed Learning Optimizations with Automated Tuning",
       "publisher": "Published: ACM EuroSys'24",
       "releaseDate": "2024-04-22",
-      "summary": "Introduced a novel framework leveraging Reinforcement Learning for optimizing Federated Learning in heterogeneous environments."
+      "summary": "Designed 'FLOAT', a framework for enabling distributed learning and fine-tuning with high efficiency and resource utilization at low cost on constrained and heterogeneous Edge devices, leveraging Reinforcement Learning with Human Feedback."
     },
     {
       "name": "Enhancing Personalized Federated Learning with Incentives",
       "publisher": "Submitted: NeurIPS'24",
       "releaseDate": "2024/4/15",
-      "summary": "Explored innovative approaches to monetizing personalized Federated Learning, addressing system and data heterogeneity."
+      "summary": "Designed an incentive-driven personalized training and fine-tuning distributed learning framework for resource-constrained data-heterogeneous Edge devices."
     },
     {
       "name": "Analyzing Personalized Federated Learning Algorithms",
@@ -122,9 +128,9 @@
     },
     {
       "name": "Design and Development of an Incentivized Federated Learning System",
-      "publisher": "Published: FL-AAAI’22, IEEE CLOUD’22",
+      "publisher": "Published: FL-AAAI’22, IEEE CLOUD’22, AAAI-AIES’24",
       "releaseDate": "2022/7/10",
-      "summary": "Designed and developed an incentivized FL system using IBMﬂ lib."
+      "summary": "Designed and developed an incentivize mechanisms for fair and explainable ML in distributed ML systems."
     },
     {
       "name": "Heterogeneity-Aware Adaptive Federated Learning Scheduling System",
@@ -133,15 +139,15 @@
       "summary": "Designed a heterogeneity-aware adaptive FL scheduling system to tune model training according to user preferences using IBMﬂ lib."
     },
     {
-      "name": "Incentivizing Vertical Federated Learning with PERFACY-FL",
+      "name": "Privacy Preserving and Feature Importance Based Incentive Mechanism in Vertical Federated Learning",
       "publisher": "In Progress",
       "releaseDate": "2022/7/9",
       "summary": "Monetized VFL with PERFACY-FL, an incentive mechanism valuing data quality and privacy using Homomorphic Encryption, boosting participation and profitability."
     },
     {
-      "name": "Defending Against Inference Attacks in Vertical Federated Learning",
-      "publisher": "In Progress",
-      "releaseDate": "2022/7/9",
+      "name": "PETER: Privacy-Preserving Vertical Federated Learning Against Feature Inference Attacks",
+      "publisher": "Submitted: TIFS'24",
+      "releaseDate": "2025/6/12",
       "summary": "Proposed a lossless and efficient defense mechanism for inference attacks in Vertical Federated Learning environments."
     }
   ],
