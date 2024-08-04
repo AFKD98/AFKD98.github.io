@@ -104,7 +104,7 @@
       "name": "Enhancing Personalized Distributed Learning with Incentives",
       "publisher": "Submitted: NeurIPS'24",
       "releaseDate": "2024-4-15",
-      "summary": "Designed an incentive-driven personalized training and fine-tuning distributed learning framework for resource-constrained data-heterogeneous Edge devices."
+      "summary": "Designed an incentive-driven personalized training and fine-tuning distributed learning framework for resource-constrained data-heterogeneous Edge devices. Enhanced personalized accuracy by up to 45%."
     },
     {
       "name": "Analyzing Personalized Machine Learning Algorithms",
@@ -116,13 +116,13 @@
       "name": "Mitigating sycophancy in LLMs",
       "publisher": "Submitted: ICML Workshop'24",
       "releaseDate": "2024-7-9",
-      "summary": "Introduced a Direct Preference Optimization approach to mitigate sycophancy by fine-tuning LLMs on a curated dataset."
+      "summary": "Introduced a Direct Preference Optimization approach to mitigate sycophancy by fine-tuning LLMs on a curated dataset. Reduced sycophancy by 64% in persona-based tests and 44% in preference-driven tests."
     },
     {
       "name": "Prompt optimization for LLMs",
       "publisher": "Submitted: COLM'24",
       "releaseDate": "2024-7-9",
-      "summary": "Developed a Direct Preference Optimization approach harnessing human preferences for prompt optimization of text-to-image tasks."
+      "summary": "Developed a Direct Preference Optimization approach harnessing human preferences for prompt optimization of text-to-image tasks. Improved score by 27% compared to supervised fine-tuning"
     },
     {
       "name": "Adaptive Machine Learning Aggregator for Edge and IoT",
