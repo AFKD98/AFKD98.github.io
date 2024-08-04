@@ -197,7 +197,12 @@
         "Express",
         "MongoDB",
         "SQL",
-        "FLSim"
+        "FLSim",
+        "Spark MLlib",
+        "Hadoop",
+        "Kubernetes",
+        "OpenFaaS",
+        "CUDA"
       ]
     }
   ],
