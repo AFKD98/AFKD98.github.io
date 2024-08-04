@@ -56,13 +56,23 @@
       "position": "Graduate Research Assistant",
       "startDate": "2020-12",
       "endDate": "Present",
-      "summary": "Engaged in cutting-edge research focused on optimizing Federated Learning through novel frameworks and methodologies. Responsible for spearheading multiple projects aimed at enhancing model performance and efficiency in distributed learning environments.",
+      "summary": "Mentored by Dr. Ali Butt, focused on developing solutions for resource-constrained learning. My research spans the design of distributed systems, enhanced learning schedulers, and the fine-tuning of Large Language Models (LLMs), aiming at optimizing resource utilization, accuracy, and efficiency in privacy-aware learning environments.",
       "highlights": [
-        "Introduced 'FLOAT' framework for optimizing Federated Learning's resource utilization",
-        "Developed an adaptive FL aggregator for Edge and IoT devices",
-        "Designed a heterogeneity-aware adaptive FL scheduling system"
+        "Built a distributed learning system in Pytorch for resource-constrained privacy-aware learning, enhancing resource utilization by 81x, scalability by 78x, and accuracy by 53%.",
+        "Designed a distributed learning parameter server on Hadoop Spark to support over one million learning nodes, increasing scalability by 4x, reducing latency by 8x, and cutting costs by 2x.",
+        "Developed a scheduler for distributed learning systems in Pytorch, which improved accuracy by 57% and reduced training time by 40%.",
+        "Engineered an efficient, infinitely scalable, and cost-effective cache on AWS Lambda, ElastiCache, SageMaker, and EC2 for non-training workloads, decreasing latency by 99.9% and costs by 99.6%.",
+        "Improved distributed ML schedulers in Pytorch to identify and eliminate adversarial data sources, increasing accuracy by 7% by successfully mitigating 100% of malicious data sources.",
+        "Developed clustering-based personalized learning solutions in Pytorch for distributed ML systems, enhancing personalized accuracy by up to 45%.",
+        "Designed a RAG-based context-aware LLM framework using Hugging Face and Pytorch, automating the adaptive online configuration of distributed cloud services to enhance resource efficiency.",
+        "Implemented a Direct Preference Optimization (DPO)-based approach to mitigate sycophancy by fine-tuning LLMs on our curated dataset, reducing sycophancy by 64% in persona-based tests and 44% in preference-driven tests.",
+        "Developed a DPO-based approach for prompt optimization without separate reward modeling for LLMs, improving score by 27% compared to supervised fine-tuning."
       ]
-    },
+    }
+    
+    
+    
+    ,
     {
       "name": "i2c Inc.",
       "position": "Associate Data Engineer",
@@ -74,9 +84,9 @@
   "publications": [
     {
       "name": "FLStore: A Cache for Non-Training Workloads in Federated Learning",
-      "publisher": "Submitted: ACM EuroSys'25",
+      "publisher": "Submitted: USENIX FAST'25",
       "releaseDate": "2025-7-31",
-      "summary": "Designed 'FLStore' locality-aware processing cache for handling non-training workloads of distributed privacy-aware learning efficiently at low cost."
+      "summary": "Designed 'FLStore' locality-aware processing cache for handling non-training workloads of distributed privacy-aware learning efficiently at low cost. Decreased latency up to 99.9% and cost up to 99.6%"
     },    
     {
       "name": "DynamicFL: Federated Learning with Dynamic Communication Resource Allocation",
@@ -88,19 +98,19 @@
       "name": "FLOAT: Federataed Learning Optimizations with Automated Tuning",
       "publisher": "Published: ACM EuroSys'24",
       "releaseDate": "2024-4-22",
-      "summary": "Designed 'FLOAT', a framework for enabling distributed learning and fine-tuning with high efficiency and resource utilization at low cost on constrained and heterogeneous Edge devices, leveraging Reinforcement Learning with Human Feedback."
+      "summary": "Designed 'FLOAT', a framework for enabling distributed learning and fine-tuning with high efficiency and resource utilization at low cost on constrained and heterogeneous Edge devices, leveraging Reinforcement Learning with Human Feedback. Improved resource utilization by 81x, scalability by 78x, and accuracy by 53%."
     },
     {
-      "name": "Enhancing Personalized Federated Learning with Incentives",
+      "name": "Enhancing Personalized Distributed Learning with Incentives",
       "publisher": "Submitted: NeurIPS'24",
       "releaseDate": "2024-4-15",
       "summary": "Designed an incentive-driven personalized training and fine-tuning distributed learning framework for resource-constrained data-heterogeneous Edge devices."
     },
     {
-      "name": "Analyzing Personalized Federated Learning Algorithms",
+      "name": "Analyzing Personalized Machine Learning Algorithms",
       "publisher": "Submitted: VLDB'24",
       "releaseDate": "2024-7-9",
-      "summary": "Conducted a thorough analysis of personalized FL algorithms, highlighting the trade-offs between privacy and performance."
+      "summary": "Conducted a thorough analysis of personalized ML algorithms, highlighting the trade-offs between privacy and performance."
     },
     {
       "name": "Mitigating sycophancy in LLMs",
@@ -115,10 +125,10 @@
       "summary": "Developed a Direct Preference Optimization approach harnessing human preferences for prompt optimization of text-to-image tasks."
     },
     {
-      "name": "Adaptive Federated Learning Aggregator for Edge and IoT",
+      "name": "Adaptive Machine Learning Aggregator for Edge and IoT",
       "publisher": "Published: IEEE BigData'23",
       "releaseDate": "2023-12-15",
-      "summary": "Developed an adaptive aggregator that significantly enhances scalability and time efficiency for Federated Learning on Edge and IoT devices."
+      "summary": "Developed an adaptive aggregator that significantly enhances scalability and time efficiency for Federated Learning on Edge and IoT devices. Increased scalability by 4x, reducing latency by 8x, and cutting costs by 2x"
     },
     {
       "name": "Survey on Adversarial Tactics in DNN, DRL, FL, and TL Models",
@@ -127,16 +137,16 @@
       "summary": "Conducted a survey on adversarial tactics in deep learning models, emphasizing their applications and distinct features."
     },
     {
-      "name": "Design and Development of an Incentivized Federated Learning System",
+      "name": "Distributed Learning Schedulers",
       "publisher": "Published: FL-AAAI’22, IEEE CLOUD’22, AAAI-AIES’24",
       "releaseDate": "2022-7-10",
-      "summary": "Designed and developed an incentivize mechanisms for fair and explainable ML in distributed ML systems."
+      "summary": "Developed a scheduler for distributed learning systems in Pytorch, which improved accuracy by 57% and reduced training time by 40%."
     },
     {
-      "name": "Heterogeneity-Aware Adaptive Federated Learning Scheduling System",
+      "name": "Heterogeneity-Aware Adaptive Machine Learning Scheduling System",
       "publisher": "Published: IEEE BigData’22",
       "releaseDate": "2022-12-17",
-      "summary": "Designed a heterogeneity-aware adaptive FL scheduling system to tune model training according to user preferences using IBMﬂ lib."
+      "summary": "Designed a heterogeneity-aware scheduler for distributed learning systems in Pytorch to manage efficiency and accuracy. Improved accuracy by 57% and training time by 40%."
     },
     {
       "name": "Privacy Preserving and Feature Importance Based Incentive Mechanism in Vertical Federated Learning",
