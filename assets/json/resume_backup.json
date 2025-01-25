@@ -149,23 +149,11 @@
       "summary": "Developed a scheduler for distributed learning systems in Pytorch, which improved accuracy by 57% and reduced training time by 40%."
     },
     {
-      "name": "Heterogeneity-Aware Adaptive Federated Learning Scheduling",
-      "releaseDate": "2022-12",
-      "publisher": "Published: IEEE BigData'22",
-      "summary": "Proposes an adaptive scheduling method for federated learning that addresses resource and data heterogeneity, aiming to improve training efficiency and fairness."
+      "name": "Heterogeneity-Aware Adaptive Machine Learning Scheduling System",
+      "publisher": "Published: IEEE BigData’22",
+      "releaseDate": "2022-12-17",
+      "summary": "Designed a heterogeneity-aware scheduler for distributed learning systems in Pytorch to manage efficiency and accuracy. Improved accuracy by 57% and training time by 40%."
     },
-    {
-      "name": "TIFF: Tokenized Incentive for Federated Learning",
-      "publisher": "Published: IEEE BigData'22",
-      "releaseDate": "2022-07",
-      "summary": "Introduces a token-based incentive mechanism to encourage high-quality data contribution and sustained participation in federated learning systems."
-    },
-    {
-      "name": "Tokenized Incentive for Federated Learning",
-      "releaseDate": "2022-07",
-      "publisher": "Published: AAAI'22",
-      "summary": "Presents a tokenized incentive framework designed to motivate clients' participation and data sharing in federated learning environments."
-    },    
     {
       "name": "Privacy Preserving and Feature Importance Based Incentive Mechanism in Vertical Federated Learning",
       "publisher": "Submitted: ICML'25",
@@ -195,22 +183,28 @@
       "name": "Tools & Libraries",
       "level": "Expert",
       "keywords": [
-        "LangChain",
-        "Ray",
-        "Spark MLlib",
-        "Hugging Face",
-        "Ollama",
-        "PyTorch",
-        "TensorFlow",
         "PySpark",
         "AWS Suite",
         "Pandas",
         "Numba",
         "Dask",
         "Docker",
+        "PyTorch",
+        "TensorFlow",
         "IBMfl lib",
-        "FLOWER",
         "FedScale",
+        "Selenium",
+        "Appium",
+        "gnuplot",
+        "ES6+",
+        "TypeScript",
+        "React/Redux",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "SQL",
+        "FLSim",
+        "Spark MLlib",
         "Hadoop",
         "Kubernetes",
         "OpenFaaS",
@@ -244,49 +238,25 @@
   ],
   "projects": [
     {
-      "name": "ML System Optimization",
-      "summary": "Developed algorithms to enhance ML system architectures for improved resource allocation, scalability, and efficiency.",
-      "highlights": [
-        "Designed and implemented DynamicFL to address heterogeneity in federated learning, published in IEEE BigData'24 (Best Paper).",
-        "Created algorithms for personalized federated learning techniques, leading to empirical insights published in IEEE BigData'24.",
-        "Optimized distributed ML systems for resource-constrained environments, contributing to impactful publications in EuroSys'24 and IEEE BigData'23."
-      ],
-      "startDate": "2020-12",
-      "endDate": "Present"
-    },
-    {
       "name": "Federated Learning Frameworks",
       "summary": "Led the design and development of both Horizontal and Vertical Federated Learning frameworks, integrating MLOps pipelines with AWS cloud resources.",
       "highlights": [
-        "Developed HFL & VFL frameworks with tokenized incentives for participation, resulting in publications in AAAI and IEEE CLOUD.",
-        "Integrated MLOps pipelines with AWS resources to ensure scalability and reliability.",
-        "Contributed to the development of incentive mechanisms for collaborative learning frameworks, as published in IEEE BigData'24 and IPDPS'25."
+        "HFL & VFL framework development",
+        "MLOps pipeline integration with AWS",
+        "Significant contributions to AAAI'24 and AAMAS'24"
       ],
       "startDate": "2020-12",
       "endDate": "Present"
     },
     {
-      "name": "LLM Fine-Tuning and Optimization",
-      "summary": "Developed methods for fine-tuning large language models (LLMs) to reduce sycophancy, enhance privacy, and optimize prompts for specific tasks.",
+      "name": "ML System Optimization",
+      "summary": "Developed algorithms to enhance ML system architectures for improved resource allocation, scalability, and efficiency.",
       "highlights": [
-        "Mitigated sycophancy in LLMs using Direct Preference Optimization, published in IEEE BigData'24.",
-        "Fine-tuned LLMs with privacy-aware data for use in federated learning systems.",
-        "Designed prompt optimization techniques tailored for text-to-image synthesis, currently under review at COLM'24."
+        "Algorithm development for system optimization",
+        "Impactful contributions leading to publications in IEEE and ACM conferences"
       ],
-      "startDate": "2021-01",
-      "endDate": "Present"
-    },
-    {
-      "name": "Privacy-Preserving Machine Learning",
-      "summary": "Developed privacy-preserving mechanisms for federated learning to counter feature inference attacks and enhance security.",
-      "highlights": [
-        "Designed PETER: a privacy-preserving framework for vertical federated learning, under review at TIFS'24.",
-        "Proposed feature importance-based incentive mechanisms for federated learning, to be submitted to AAAI'25.",
-        "Surveyed security threats in deep learning and proposed countermeasures, published in IEEE Access."
-      ],
-      "startDate": "2021-06",
+      "startDate": "2020-12",
       "endDate": "Present"
     }
   ]
-
 }
