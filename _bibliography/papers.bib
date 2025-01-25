@@ -3,6 +3,81 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{khan2023pifl,
+      title={IP-FL: Incentive-driven Personalization in Federated Learning}, 
+      author={Ahmad Faraz Khan and Xinran Wang and Qi Le and Zain ul Abdeen and Azal Ahmad Khan and Haider Ali and Ming Jin and Jie Ding and Ali R. Butt and Ali Anwar},
+      year={2025},
+      eprint={2304.07514},
+      archivePrefix={IPDPS},
+      primaryClass={cs.LG}
+}
+
+@INPROCEEDINGS {wang2023framework,
+author = { Wang, Xinran and Le, Qi and Khan, Ahmad Faraz and Ding, Jie and Anwar, Ali },
+booktitle = { 2024 IEEE International Conference on Big Data (BigData) },
+title = {{ ICL: An Incentivized Collaborative Learning Framework }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {94-103},
+abstract = { Collaborations among various entities, such as companies, research labs, AI agents, and edge devices, have become increasingly crucial for achieving machine learning tasks that cannot be accomplished by a single entity alone. This is likely due to factors such as security constraints, privacy concerns, and limitations in computation resources. As a result, Collaborative Learning has been gaining momentum. However, a significant challenge in practical applications of Collaborative Learning is how to effectively incentivize multiple entities to collaborate before any collaboration occurs. In this study, we propose ICL, an architectural framework for Incentivized Collaborative Learning, and provide insights into the critical issue of when and why incentives can improve collaboration performance. We showcase the concepts of ICL to specific use cases in federated learning, assisted learning, and multi-armed bandit, corroborating with both theoretical and experimental results. },
+keywords = {Privacy;Data privacy;Federated learning;Collaboration;Pricing;Companies;Big Data;Data models;Security},
+doi = {10.1109/BigData62323.2024.10825643},
+url = {https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10825643},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Dec}
+
+@INPROCEEDINGS {pFL_techniques,
+author = { Khan, Azal Ahmad and Khan, Ahmad Faraz and Ali, Haidar and Anwar, Ali },
+booktitle = { 2024 IEEE International Conference on Big Data (BigData) },
+title = {{ Personalized Federated Learning Techniques: Empirical Analysis }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {1333-1339},
+abstract = { Personalized Federated Learning (pFL) holds immense promise for tailoring machine learning models to individual users while preserving data privacy. However, achieving optimal performance in pFL often requires a careful balancing act between memory overhead costs and model accuracy. This paper delves into the trade-offs inherent in pFL, offering valuable insights for selecting the right algorithms for diverse real-world scenarios. We empirically evaluate ten prominent pFL techniques across various datasets and data splits, uncovering significant differences in their performance. Our study reveals interesting insights into how pFL methods that utilize personalized (local) aggregation exhibit the fastest convergence due to their efficiency in communication and computation. Conversely, fine-tuning methods face limitations in handling data heterogeneity and potential adversarial attacks while multi-objective learning methods achieve higher accuracy at the cost of additional training and resource consumption. Our study emphasizes the critical role of communication efficiency in scaling pFL, demonstrating how it can significantly affect resource usage in real-world deployments. },
+keywords = {Training;Measurement;Costs;Accuracy;Machine learning algorithms;Federated learning;Memory management;Medical services;Market research;Data models},
+doi = {10.1109/BigData62323.2024.10825575},
+url = {https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10825575},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Dec}
+
+@INPROCEEDINGS {LLM_sycophancy,
+author = { Khan, Azal Ahmad and Alam, Sayan and Wang, Xinran and Khan, Ahmad Faraz and Neog, Debanga Raj and Anwar, Ali },
+booktitle = { 2024 IEEE International Conference on Big Data (BigData) },
+title = {{ Mitigating Sycophancy in Large Language Models via Direct Preference Optimization }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {1664-1671},
+abstract = { Large language models (LLMs) have demonstrated remarkable capabilities, yet they occasionally exhibit sycophantic behavior, generating responses that align with or agree with a user’s stated opinions or preferences, even when those opinions are incorrect or biased. This sycophantic tendency can undermine the trustworthiness and reliability of LLMs. This work proposes a novel approach to mitigate sycophancy in LLMs by fine-tuning them on a carefully curated dataset comprising prompts paired with sycophantic and non-sycophantic responses 1. Our method leverages Direct Preference Optimization (DPO), which optimizes LLMs to generate responses that align with the preferred (non-sycophantic) outputs without requiring explicit reward modeling. We develop a dataset of 1000 prompts with sycophantic and non-sycophantic responses to fine-tune LLMs. Our approach achieves an average reduction of 85% in persona-based tests and 84% in preference-driven tests, demonstrating significant mitigation of sycophantic behaviors. Our findings pave the way for more trustworthy and reliable language models that can provide objective and unbiased responses, aligning with human preferences while maintaining factual accuracy. },
+keywords = {Ethics;Accuracy;Large language models;Prevention and mitigation;Big Data;Data models;Reliability;Optimization},
+doi = {10.1109/BigData62323.2024.10825538},
+url = {https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10825538},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Dec}
+
+@INPROCEEDINGS {dynamicFL,
+author = { Le, Qi and Diao, Enmao and Wang, Xinran and Khan, Ahmad Faraz and Tarokh, Vahid and Ding, Jie and Anwar, Ali },
+booktitle = { 2024 IEEE International Conference on Big Data (BigData) },
+title = {{ DynamicFL: Federated Learning with Dynamic Communication Resource Allocation }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {998-1008},
+abstract = { Federated Learning (FL) is a collaborative machine learning framework that allows multiple users to train models utilizing their local data in a distributed manner. However, considerable statistical heterogeneity in local data across devices often leads to suboptimal model performance compared with independently and identically distributed (IID) data scenarios. In this paper, we introduce DynamicFL, a new FL framework that investigates the trade-offs between global model performance and communication costs for two widely adopted FL methods: Federated Stochastic Gradient Descent (FedSGD) and Federated Averaging (FedAvg). Our approach allocates diverse communication resources to clients based on their data statistical heterogeneity, considering communication resource constraints, and attains substantial performance enhancements compared to uniform communication resource allocation. Notably, our method bridges the gap between FedSGD and FedAvg, providing a flexible framework leveraging communication heterogeneity to address statistical heterogeneity in FL. Through extensive experiments, we demonstrate that DynamicFL surpasses current state-of-the-art methods with up to a 10% increase in model accuracy, demonstrating its adaptability and effectiveness in tackling data statistical heterogeneity challenges. },
+keywords = {Performance evaluation;Adaptation models;Costs;Accuracy;Federated learning;Distributed databases;Stochastic processes;Data models;Robustness;Resource management},
+doi = {10.1109/BigData62323.2024.10826074},
+url = {https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10826074},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Dec}
+
+
+
 @inproceedings{Khan2024FLOAT,
   author = {Ahmad Faraz Khan and Azal Ahmad Khan and Ahmed M. Abdelmoniem and Samuel Fountain and Ali R. Butt and Ali Anwar},
   title = {{FLOAT}: Federated Learning Optimizations with Automated Tuning},
@@ -17,6 +92,20 @@
   url = {https://doi.org/10.1145/3627703.3650081},
   selected = {true}
 }
+
+@article {Emon2024.10.30.621203,
+	author = {Emon, Muhit Islam and Cheung, Yat Fei and Stoll, James and Rumi, Monjura Afrin and Brown, Connor and Choi, Joung Min and Moumi, Nazifa Ahmed and Ahmed, Shafayat and Song, Haoqiu and Sein, Justin and Yao, Shunyu and Khan, Ahmad and Gupta, Suraj and Kulkarni, Rutwik and Butt, Ali and Vikesland, Peter and Pruden, Amy and Zhang, Liqing},
+	title = {CIWARS: a web server for waterborne antibiotic resistance surveillance using longitudinal metagenomic data},
+	elocation-id = {2024.10.30.621203},
+	year = {2024},
+	doi = {10.1101/2024.10.30.621203},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {The rise of antibiotic resistance (AR) is a major global health crisis, exacerbated by the overuse and misuse of antibiotics, leading to the rapid spread of antibiotic resistance genes (ARGs) in bacterial pathogens. This phenomenon poses significant threats to human and animal health, food security, and economic stability. Water bodies, particularly wastewater treatment plants (WWTPs), serve as critical reservoirs for ARGs, creating environments that favor the proliferation of resistant bacteria. Wastewater-based surveillance (WBS) has emerged as a cost-effective strategy for monitoring AR at the population level, providing real-time data to guide public health and policy decisions. Despite advancements in WBS, there are no comprehensive online analytical platforms for continuous environmental AR surveillance. This paper introduces CIWARS, a web server designed for AR analyses of longitudinal metagenomic data. CIWARS offers comprehensive ARG profiling, taxonomic annotation, and anomalous AR risk points detection. We demonstrate its capabilities through an interactive temporal data visualization, showcasing its potential for enhancing AR risk monitoring and guiding effective mitigation strategies. CIWARS is broadly applicable to longitudinal metagenomic data generated from any environment and aims to support global efforts in addressing the AR crisis by providing cyberinfrastructure for continuous AR surveillance. The web server is freely available at https://ciwars.cs.vt.edu/.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2024/11/03/2024.10.30.621203},
+	eprint = {https://www.biorxiv.org/content/early/2024/11/03/2024.10.30.621203.full.pdf},
+	journal = {bioRxiv}
+}
+
 
 @INPROCEEDINGS{adaptiveAggregationKhan,
   author={Khan, Ahmad Faraz and Li, Yuze and Wang, Xinran and Haroon, Sabaat and Ali, Haider and Cheng, Yue and Butt, Ali R. and Anwar, Ali},
@@ -44,23 +133,6 @@
   selected = {true}
   }
 
-@misc{khan2023pifl,
-      title={PI-FL: Personalized and Incentivized Federated Learning}, 
-      author={Ahmad Faraz Khan and Xinran Wang and Qi Le and Azal Ahmad Khan and Haider Ali and Jie Ding and Ali Butt and Ali Anwar},
-      year={2023},
-      eprint={2304.07514},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-
-@misc{wang2023framework,
-      title={A Framework for Incentivized Collaborative Learning}, 
-      author={Xinran Wang and Qi Le and Ahmad Faraz Khan and Jie Ding and Ali Anwar},
-      year={2023},
-      eprint={2305.17052},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
 
 @INPROCEEDINGS{TIFF,
   author={Han, Jingoo and Khan, Ahmad Faraz and Zawad, Syed and Anwar, Ali and Angel, Nathalie Baracaldo and Zhou, Yi and Yan, Feng and Butt, Ali R.},
