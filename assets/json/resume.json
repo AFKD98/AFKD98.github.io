@@ -83,6 +83,12 @@
   ],
   "publications": [
     {
+      "name": "LADs: Leveraging LLMs for AI-Driven DevOps",
+      "publisher": "Submitted: ACL'25",
+      "releaseDate": "2025-2-15",
+      "summary": "Developed a first-of-its-kind reasoning-based Agentic AI-driven DevOps platform for adaptive online configuration of cloud systems, employing context-aware prompting for optimal resource efficiency and reduced human effort and cost."
+    },
+    {
       "name": "IP-FL: Incentive-driven Personalization in Federated Learning",
       "publisher": "Published: IPDPS'25",
       "releaseDate": "2024-4-15",
@@ -90,7 +96,7 @@
     },
     {
       "name": "FLStore: A Cache for Non-Training Workloads in Federated Learning",
-      "publisher": "Submitted: MLSys'25",
+      "publisher": "Published: MLSys'25",
       "releaseDate": "2025-7-31",
       "summary": "Designed 'FLStore' locality-aware processing cache for handling non-training workloads of distributed privacy-aware learning efficiently at low cost. Decreased latency up to 99.9% and cost up to 99.6%"
     },    
