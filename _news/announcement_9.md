@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: Our paper **DynamicFL: Federated Learning with Dynamic Communication Resource Allocation!** has been selected as the **Best Paper** at **IEEE BigData 2024**! :sparkles:  
-
+:sparkles: Our paper **DynamicFL: Federated Learning with Dynamic Communication Resource Allocation!** has been selected as the **Best Paper** at **IEEE BigData 2024**! :sparkles:

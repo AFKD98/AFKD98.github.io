@@ -37,7 +37,7 @@
     - year: December 2020 - Present
       title: Graduate Research Assistant, DSSL, Virginia Tech
       items:
-        - "Designed ”FLStore” cache for handling non-training workloads of FL efficiently at low cost. Submitted to ACM EuroSys’25." 
+        - "Designed ”FLStore” cache for handling non-training workloads of FL efficiently at low cost. Submitted to ACM EuroSys’25."
         - "Introduced 'FLOAT', a framework optimizing Federated Learning's resource utilization and model performance amid heterogeneity. Published in ACM EuroSys'24."
         - "Developed a framework for monetizing personalized FL with system and data heterogeneity. Paper submitted to NeurIPS'24."
         - "Introduced a Direct Preference Optimization approach to mitigate sycophancy by fine-tuning LLMs on a curated dataset. Submitted to ICML Workshop’24."

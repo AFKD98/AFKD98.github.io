@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: **Thrilled to share some exciting news!** :sparkles:  
+:sparkles: **Thrilled to share some exciting news!** :sparkles:
 
-:partying_face: **4 new papers** on **Federated Learning** and **LLM Sycophancy** have been published in **BigData'24**! :newspaper: :rocket:  
+:partying_face: **4 new papers** on **Federated Learning** and **LLM Sycophancy** have been published in **BigData'24**! :newspaper: :rocket:

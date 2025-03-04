@@ -26,14 +26,7 @@
       "startDate": "2020-12",
       "endDate": "Present",
       "gpa": "3.8",
-      "courses": [
-        "Machine Learning Systems",
-        "Distributed Systems",
-        "Deep Learning",
-        "Machine Learning",
-        "Cloud Development",
-        "Computer Systems"
-      ]
+      "courses": ["Machine Learning Systems", "Distributed Systems", "Deep Learning", "Machine Learning", "Cloud Development", "Computer Systems"]
     },
     {
       "institution": "LUMS",
@@ -41,13 +34,7 @@
       "studyType": "B.S.",
       "startDate": "2016-01",
       "endDate": "2020-01",
-      "courses": [
-        "Distributed Systems",
-        "Deep Learning",
-        "Machine Learning",
-        "Cloud Development",
-        "Computer Systems"
-      ]
+      "courses": ["Distributed Systems", "Deep Learning", "Machine Learning", "Cloud Development", "Computer Systems"]
     }
   ],
   "work": [
@@ -68,11 +55,7 @@
         "Implemented a Direct Preference Optimization (DPO)-based approach to mitigate sycophancy by fine-tuning LLMs on our curated dataset, reducing sycophancy by 64% in persona-based tests and 44% in preference-driven tests.",
         "Developed a DPO-based approach for prompt optimization without separate reward modeling for LLMs, improving score by 27% compared to supervised fine-tuning."
       ]
-    }
-    
-    
-    
-    ,
+    },
     {
       "name": "i2c Inc.",
       "position": "Associate Data Engineer",
@@ -93,7 +76,7 @@
       "publisher": "Submitted: MLSys'25",
       "releaseDate": "2025-7-31",
       "summary": "Designed 'FLStore' locality-aware processing cache for handling non-training workloads of distributed privacy-aware learning efficiently at low cost. Decreased latency up to 99.9% and cost up to 99.6%"
-    },    
+    },
     {
       "name": "DynamicFL: Federated Learning with Dynamic Communication Resource Allocation",
       "publisher": "Published: IEEE BigData'24",
@@ -171,13 +154,7 @@
     {
       "name": "Programming Languages",
       "level": "Expert",
-      "keywords": [
-        "Python",
-        "Javascript",
-        "C/C++",
-        "Java",
-        "Go"
-      ]
+      "keywords": ["Python", "Javascript", "C/C++", "Java", "Go"]
     },
     {
       "name": "Tools & Libraries",
@@ -221,40 +198,25 @@
   "interests": [
     {
       "name": "Federated Learning",
-      "keywords": [
-        "Resource Optimization",
-        "Model Performance",
-        "System and Data Heterogeneity"
-      ]
+      "keywords": ["Resource Optimization", "Model Performance", "System and Data Heterogeneity"]
     },
     {
       "name": "Machine Learning Systems",
-      "keywords": [
-        "Scalability",
-        "Efficiency",
-        "Cloud Development"
-      ]
+      "keywords": ["Scalability", "Efficiency", "Cloud Development"]
     }
   ],
   "projects": [
     {
       "name": "Federated Learning Frameworks",
       "summary": "Led the design and development of both Horizontal and Vertical Federated Learning frameworks, integrating MLOps pipelines with AWS cloud resources.",
-      "highlights": [
-        "HFL & VFL framework development",
-        "MLOps pipeline integration with AWS",
-        "Significant contributions to AAAI'24 and AAMAS'24"
-      ],
+      "highlights": ["HFL & VFL framework development", "MLOps pipeline integration with AWS", "Significant contributions to AAAI'24 and AAMAS'24"],
       "startDate": "2020-12",
       "endDate": "Present"
     },
     {
       "name": "ML System Optimization",
       "summary": "Developed algorithms to enhance ML system architectures for improved resource allocation, scalability, and efficiency.",
-      "highlights": [
-        "Algorithm development for system optimization",
-        "Impactful contributions leading to publications in IEEE and ACM conferences"
-      ],
+      "highlights": ["Algorithm development for system optimization", "Impactful contributions leading to publications in IEEE and ACM conferences"],
       "startDate": "2020-12",
       "endDate": "Present"
     }
