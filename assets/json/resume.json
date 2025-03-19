@@ -66,6 +66,12 @@
   ],
   "publications": [
     {
+      "name": "Exposing the Gaps in the Large Language Models’ Ability to Understand Code",
+      "publisher": "Submitted: ICSE'26",
+      "releaseDate": "2025-3-16",
+      "summary": "Developed the first benchmark for evaluating the robustness of LLMs for debugging in the presence of non-functional mutations in code, providing guidelines to engineers on how to improve automated debugging performance with LLMs."
+    },
+    {
       "name": "LADs: Leveraging LLMs for AI-Driven DevOps",
       "publisher": "Submitted: ACL'25",
       "releaseDate": "2025-2-15",
