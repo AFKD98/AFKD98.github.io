@@ -1,0 +1,17 @@
+current directory: /Users/ahmadkhan/Documents/self/resume/website/AFKD98.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20250624-88667-1ggb6i2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ahmadkhan/Documents/self/resume/website/AFKD98.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" clean
+
+current directory: /Users/ahmadkhan/Documents/self/resume/website/AFKD98.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR="
+compiling porter.c
+compiling porter_wrap.c
+linking shared-object stemmer.bundle
+ld: warning: search path '/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.Internal.sdk/usr/local/lib' not found
+
+current directory: /Users/ahmadkhan/Documents/self/resume/website/AFKD98.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 stemmer.bundle ./.gem.20250624-88667-j3f3hv
