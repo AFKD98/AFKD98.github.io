@@ -67,14 +67,6 @@
         "Developed a DPO-based approach for prompt optimization without separate reward modeling for LLMs, improving score by 27% compared to supervised fine-tuning."
       ]
     }
-    // ,
-    // {
-    //   "name": "i2c Inc.",
-    //   "position": "Associate Data Engineer",
-    //   "startDate": "2020-05",
-    //   "endDate": "2020-12",
-    //   "summary": "Spearheaded the development and maintenance of distributed databases, focusing on performance optimization and scalability."
-    // }
   ],
   "publications": [
     {
