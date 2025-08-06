@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    Analytics Dashboard | Ahmad Faraz Khan
+  
+</title>
+<meta name="author" content="Ahmad Faraz Khan">
+<meta name="description" content="Website Analytics Dashboard - Track visitor statistics and insights">
+
+  <meta name="keywords" content="Analytics, Website Tracking, Visitor Statistics">
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons&amp;display=swap">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/website_icon.png?976034b2530bc12e943f52090f184b35">
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://afkd98.github.io/analytics.html">
+
+<!-- Dark Mode -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+<script src="/assets/js/theme.js?0afe9f0ae161375728f7bcc5eb5b4ab4"></script>
+
+<!-- Google Analytics 4 -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<!-- Chart.js for Analytics -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+.analytics-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.analytics-card h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.chart-container {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.analytics-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
+
+.analytics-header h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.analytics-header p {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.1rem;
+}
+</style>
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav">
+    <!-- Header -->
+    <header>
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+        <div class="container">
+          
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+              
+              <!-- About -->
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/projects/">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/cv/">CV</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">Blog</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- Analytics Header -->
+      <div class="analytics-header text-center">
+        <h1>Website Analytics Dashboard</h1>
+        <p>Track visitor statistics and insights for your website</p>
+      </div>
+
+      <!-- Quick Stats -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="analytics-card text-center">
+            <div class="stat-number" id="total-visitors">--</div>
+            <div class="stat-label">Total Visitors</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="analytics-card text-center">
+            <div class="stat-number" id="page-views">--</div>
+            <div class="stat-label">Page Views</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="analytics-card text-center">
+            <div class="stat-number" id="bounce-rate">--</div>
+            <div class="stat-label">Bounce Rate</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="analytics-card text-center">
+            <div class="stat-number" id="avg-session">--</div>
+            <div class="stat-label">Avg. Session</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="chart-container">
+            <h4>Visitor Traffic (Last 30 Days)</h4>
+            <canvas id="visitorChart"></canvas>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="chart-container">
+            <h4>Top Pages</h4>
+            <canvas id="pagesChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="chart-container">
+            <h4>Traffic Sources</h4>
+            <canvas id="sourcesChart"></canvas>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="chart-container">
+            <h4>Device Types</h4>
+            <canvas id="devicesChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Setup Instructions -->
+      <div class="row mt-4">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <h5>Setup Instructions</h5>
+            </div>
+            <div class="card-body">
+              <ol>
+                <li><strong>Create Google Analytics Account:</strong> Go to <a href="https://analytics.google.com" target="_blank">Google Analytics</a> and create a new account</li>
+                <li><strong>Create Property:</strong> Add your website as a new property</li>
+                <li><strong>Get Tracking ID:</strong> Copy your Measurement ID (starts with G-)</li>
+                <li><strong>Replace Placeholder:</strong> Replace "G-XXXXXXXXXX" in the HTML files with your actual Measurement ID</li>
+                <li><strong>Deploy:</strong> Upload the updated files to your website</li>
+                <li><strong>View Data:</strong> Data will start appearing in Google Analytics within 24-48 hours</li>
+              </ol>
+              <div class="alert alert-info">
+                <strong>Note:</strong> This dashboard shows sample data. For real analytics, you'll need to set up Google Analytics and use their API or embed their dashboard.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/theme.js"></script>
+
+    <script>
+      // Sample data for demonstration
+      const sampleData = {
+        visitors: 1247,
+        pageViews: 3421,
+        bounceRate: '23.4%',
+        avgSession: '2m 34s',
+        visitorTrend: [120, 135, 142, 138, 156, 168, 145, 132, 148, 162, 178, 189, 201, 215, 198, 187, 203, 218, 225, 234, 241, 228, 235, 248, 256, 267, 278, 289, 301, 315],
+        topPages: [
+          { page: 'Home', views: 1250 },
+          { page: 'Publications', views: 890 },
+          { page: 'Projects', views: 567 },
+          { page: 'CV', views: 423 },
+          { page: 'Blog', views: 234 }
+        ],
+        sources: [
+          { source: 'Direct', percentage: 45 },
+          { source: 'Google', percentage: 35 },
+          { source: 'Social Media', percentage: 12 },
+          { source: 'Referrals', percentage: 8 }
+        ],
+        devices: [
+          { device: 'Desktop', percentage: 65 },
+          { device: 'Mobile', percentage: 30 },
+          { device: 'Tablet', percentage: 5 }
+        ]
+      };
+
+      // Update stats
+      document.getElementById('total-visitors').textContent = sampleData.visitors.toLocaleString();
+      document.getElementById('page-views').textContent = sampleData.pageViews.toLocaleString();
+      document.getElementById('bounce-rate').textContent = sampleData.bounceRate;
+      document.getElementById('avg-session').textContent = sampleData.avgSession;
+
+      // Visitor Trend Chart
+      const visitorCtx = document.getElementById('visitorChart').getContext('2d');
+      new Chart(visitorCtx, {
+        type: 'line',
+        data: {
+          labels: Array.from({length: 30}, (_, i) => `Day ${i + 1}`),
+          datasets: [{
+            label: 'Visitors',
+            data: sampleData.visitorTrend,
+            borderColor: '#667eea',
+            backgroundColor: 'rgba(102, 126, 234, 0.1)',
+            tension: 0.4
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+
+      // Top Pages Chart
+      const pagesCtx = document.getElementById('pagesChart').getContext('2d');
+      new Chart(pagesCtx, {
+        type: 'doughnut',
+        data: {
+          labels: sampleData.topPages.map(p => p.page),
+          datasets: [{
+            data: sampleData.topPages.map(p => p.views),
+            backgroundColor: [
+              '#667eea',
+              '#764ba2',
+              '#f093fb',
+              '#f5576c',
+              '#4facfe'
+            ]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }
+      });
+
+      // Traffic Sources Chart
+      const sourcesCtx = document.getElementById('sourcesChart').getContext('2d');
+      new Chart(sourcesCtx, {
+        type: 'pie',
+        data: {
+          labels: sampleData.sources.map(s => s.source),
+          datasets: [{
+            data: sampleData.sources.map(s => s.percentage),
+            backgroundColor: [
+              '#667eea',
+              '#764ba2',
+              '#f093fb',
+              '#f5576c'
+            ]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }
+      });
+
+      // Device Types Chart
+      const devicesCtx = document.getElementById('devicesChart').getContext('2d');
+      new Chart(devicesCtx, {
+        type: 'bar',
+        data: {
+          labels: sampleData.devices.map(d => d.device),
+          datasets: [{
+            label: 'Percentage',
+            data: sampleData.devices.map(d => d.percentage),
+            backgroundColor: [
+              '#667eea',
+              '#764ba2',
+              '#f093fb'
+            ]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 100
+            }
+          }
+        }
+      });
+    </script>
+  </body>
+</html> 
