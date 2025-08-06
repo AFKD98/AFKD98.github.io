@@ -11,7 +11,7 @@
         // - Your own server endpoint
         // - Google Analytics (optional)
         WEBHOOK_URL: 'https://webhook.site/your-unique-id', // Replace with your webhook URL
-        GA_MEASUREMENT_ID: 'G-XXXXXXXXXX', // Optional: Your Google Analytics ID
+        GA_MEASUREMENT_ID: 'G-GKGQWV5HBD', // Optional: Your Google Analytics ID
         
         // Enhanced tracking options
         trackPageViews: true,
@@ -299,7 +299,7 @@
         };
         
         // Send to Google Analytics (optional)
-        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
             gtag('event', 'page_view', {
                 page_title: pageData.title,
                 page_location: pageData.url,
@@ -339,7 +339,7 @@
             
             visitorData.clicks.push(clickData);
             
-            if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+            if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                 gtag('event', 'click', {
                     event_category: 'User Interaction',
                     event_label: clickData.target + ' - ' + clickData.targetText,
@@ -379,7 +379,7 @@
                     if (scrollPercent >= threshold && !trackedThresholds.has(threshold)) {
                         trackedThresholds.add(threshold);
                         
-                        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+                        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                             gtag('event', 'scroll', {
                                 event_category: 'Engagement',
                                 event_label: 'Scroll Depth',
@@ -408,7 +408,7 @@
                 if (timeOnPage >= threshold && !trackedTimeThresholds.has(threshold)) {
                     trackedTimeThresholds.add(threshold);
                     
-                    if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+                    if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                         gtag('event', 'timing', {
                             event_category: 'Engagement',
                             event_label: 'Time on Page',
@@ -429,7 +429,7 @@
             
             const totalTimeOnPage = Math.floor((Date.now() - startTime) / 1000);
             
-            if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+            if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                 gtag('event', 'timing', {
                     event_category: 'Engagement',
                     event_label: 'Total Time on Page',
@@ -507,7 +507,7 @@
                 
                 visitorData.formInteractions.push(formData);
                 
-                if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+                if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                     gtag('event', 'form_submit', {
                         event_category: 'Form',
                         event_label: formData.formId,
@@ -536,7 +536,7 @@
                     sessionId: visitorData.sessionId
                 };
                 
-                if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+                if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                     gtag('event', 'social_click', {
                         event_category: 'Social Media',
                         event_label: socialData.platform,
@@ -560,7 +560,7 @@
             const isAdBlockerActive = testAd.offsetHeight === 0;
             document.body.removeChild(testAd);
             
-            if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+            if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                 gtag('event', 'ad_blocker_detected', {
                     event_category: 'Technical',
                     event_label: isAdBlockerActive ? 'Ad Blocker Active' : 'No Ad Blocker',
@@ -586,7 +586,7 @@
                         sessionId: visitorData.sessionId
                     };
                     
-                    if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+                    if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
                         gtag('event', 'geolocation', {
                             event_category: 'Location',
                             event_label: 'Location Captured',
@@ -597,13 +597,13 @@
                     }
                 },
                 function(error) {
-                    if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
-                        gtag('event', 'geolocation_error', {
-                            event_category: 'Location',
-                            event_label: 'Location Error',
-                            value: error.code
-                        });
-                    }
+                                    if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
+                    gtag('event', 'geolocation_error', {
+                        event_category: 'Location',
+                        event_label: 'Location Error',
+                        value: error.code
+                    });
+                }
                 }
             );
         }
@@ -626,7 +626,7 @@
         };
         
         // Send to Google Analytics (optional)
-        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
             gtag('event', 'visitor_data', {
                 event_category: 'Analytics',
                 event_label: 'Visitor Data Collected',
@@ -650,7 +650,7 @@
 
     // Custom event tracking function
     function trackCustomEvent(eventName, eventCategory, eventLabel, value, customData) {
-        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+        if (typeof gtag !== 'undefined' && ANALYTICS_CONFIG.GA_MEASUREMENT_ID !== 'G-GKGQWV5HBD') {
             gtag('event', eventName, {
                 event_category: eventCategory,
                 event_label: eventLabel,
