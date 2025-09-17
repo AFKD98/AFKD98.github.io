@@ -39,14 +39,27 @@
   ],
   "work": [
     {
+      "name": "Google, Mountain View",
+      "position": "Software Engineering Intern PhD",
+      "startDate": "2025-08",
+      "endDate": "Present",
+      "summary": "Mentored by Dr. Shan Li, focused on foundation models for video pre-processing regression tasks including denoising, super-resolution, smart downscaling, and compression.",
+      "highlights": [
+        "Created a pipeline to generate up to 1 million training data images for image-to-image regression tasks.",
+        "Building generic foundation models for video pre-processing regression tasks, including denoising, super-resolution, smart downscaling, and compression.",
+        "Contributing to the training of foundation models for Youtube video regression."
+      ]
+    },
+    {
       "name": "IBM Research, Almaden",
       "position": "Research Intern",
       "startDate": "2025-05",
-      "endDate": "Present",
-      "summary": "Mentored by Dr. Taiga Nakamura and Dr. Swanand Ravindra Kadhe, focused on developing self-learning and self-maintainance loops for foundational models using targeted syntehtic data generation.",
+      "endDate": "2025-08",
+      "summary": "Mentored by Dr. Taiga Nakamura and Dr. Swanand Ravindra Kadhe, focused on continual learning and targeted data generation for foundational models.",
       "highlights": [
-        "Designed a self-optimizing loop and domain-specific fine-grained synthetic data generation techniques guided by embedding-based similarity metrics.",
-        "Enabled controlled distributional coverage, continual learning, and autonomous maintenance of foundational models, significantly improving their robustness and performance in domain-specific tasks."
+        "Designed a post-training self-optimizing loop and domain-specific fine-grained synthetic data generation techniques guided by embedding-based similarity metrics, increasing the training data to accuracy efficiency by 2.5×.",
+        "Enabled controlled distributional coverage, continual learning, and autonomous maintenance of foundational models, significantly improving robustness and performance in domain-specific tasks.",
+        "Submitted 2 patents and contributed to the training of IBM's Granite 4.0 model."
       ]
     },
     {
@@ -71,7 +84,7 @@
   "publications": [
     {
       "name": "Exposing the Gaps in the Large Language Models’ Ability to Understand Code",
-      "publisher": "Submitted: ICSE'26",
+      "publisher": "Submitted: TOSEM'26",
       "releaseDate": "2025-3-15",
       "summary": "Developed the first benchmark for evaluating the robustness of LLMs for debugging in the presence of non-functional mutations in code, providing guidelines to engineers on how to improve automated debugging performance with LLMs."
     },
